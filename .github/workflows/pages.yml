@@ -23,8 +23,10 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir -p _site/assets
-          cp index.html styles.css script.js robots.txt _site/
+          cp index.html styles.css script.js ecosystem-data.js ecosystem.js robots.txt _site/
           cp assets/segone-mark.svg _site/assets/
+          mkdir -p _site/ventures
+          cp ventures/index.html _site/ventures/
           touch _site/.nojekyll
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3

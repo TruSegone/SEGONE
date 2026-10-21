@@ -4,9 +4,7 @@ Responsive single-page corporate site for SEGONE, built with semantic HTML, CSS,
 
 ## Review the source
 
-Browse the [SEGONE repository on GitHub](https://github.com/TruSegone/SEGONE) or open the [website entry point](https://github.com/TruSegone/SEGONE/blob/master/index.html) to review the page source in your browser. This is a source review link; a publicly hosted website preview has not been deployed.
-
-Share the live SEGONE website at [https://trusegone.github.io/SEGONE/](https://trusegone.github.io/SEGONE/). The site is published publicly through GitHub Pages.
+Browse the [SEGONE repository on GitHub](https://github.com/TruSegone/SEGONE) or open the [live website](https://trusegone.github.io/SEGONE/) and the [venture directory](https://trusegone.github.io/SEGONE/ventures/).
 
 ## Run locally
 
@@ -24,7 +22,7 @@ The form validates required fields and consent in the browser, then prepares a `
 
 ## Deployment
 
-GitHub Pages deploys the static files through `.github/workflows/pages.yml`; no build command or package installation is required. The workflow publishes `index.html`, `styles.css`, `script.js`, `robots.txt`, and the SVG logo. `_headers` is not applied by GitHub Pages. Configure a Content Security Policy at the host if moving to a platform that supports it; the current page loads Google Fonts. Add canonical URLs and an absolute sitemap once SEGONE configures an official domain. Do not set a guessed domain.
+GitHub Pages deploys the static files through `.github/workflows/pages.yml`; no build command or package installation is required. The workflow publishes the homepage, the `/ventures/` directory, shared scripts and data, styles, robots file, and SVG logo. `_headers` is not applied by GitHub Pages. Configure a Content Security Policy at the host if moving to a platform that supports it; the current page loads Google Fonts. Add canonical URLs and an absolute sitemap once SEGONE configures an official domain. Do not set a guessed domain.
 
 Use HTTPS, attach an approved domain through the host, and verify TLS, security headers, page metadata, assets, mobile navigation, keyboard interactions, and enquiry delivery after deployment. Do not publish the contact form as a direct-submission channel until an authorized destination is configured.
 
