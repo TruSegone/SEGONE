@@ -28,8 +28,8 @@ Use HTTPS, attach an approved domain through the host, and verify TLS, security 
 
 ## Brand and content notes
 
-The geometric S SVG, wordmark treatment, and favicon are original implementation assets, not a legal clearance. The portfolio is explicitly presented as concept directions, with no client, deployment, credential, or performance claims. Adjacent capabilities are marked selective, project-dependent, or prototype to distinguish them from the current software engineering focus.
+The geometric S SVG, wordmark treatment, and favicon are original implementation assets, not a legal clearance. Arcade entries point to verified playable game URLs and public source repositories. Sentinel AI is labelled an active prototype, described as synthetic-data/local-first, and linked to its public repository; no live Sentinel deployment is claimed. Black Ambrella is an informational listing because no public destination was found. No client, credential, performance, or production claims are fabricated.
 
 ## Checks
 
-There is no existing test or lint tooling in this empty repository. No automated tests or build were run; static delivery has no compilation step. Use browser checks at 360, 390, 768, 1024, 1440, and 1920px before deployment, alongside link, keyboard, form validation, console, network, and accessibility checks.
+There is no test or lint tooling and no compilation step in this static repository. After the ecosystem refactor, `node --check` passed for all three JavaScript files; Python's HTML parser checked both pages, internal anchors, and local asset references; the logo SVG parsed successfully; and `git diff --check` passed. Browser smoke checks confirmed both live SEGONE routes, the Arcade hub, and all three game pages load. A full automated test suite, console/network audit, and six-width visual accessibility review are not configured and were not run.
