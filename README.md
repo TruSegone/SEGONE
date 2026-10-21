@@ -2,6 +2,10 @@
 
 Responsive single-page corporate site for SEGONE, built with semantic HTML, CSS, and vanilla JavaScript. The repository had no existing source, framework, package manager, or backend, so the first implementation intentionally uses a static architecture with no runtime dependencies.
 
+## Review the source
+
+Browse the [SEGONE repository on GitHub](https://github.com/TruSegone/SEGONE) or open the [website entry point](https://github.com/TruSegone/SEGONE/blob/master/index.html) to review the page source in your browser. This is a source review link; a publicly hosted website preview has not been deployed.
+
 ## Run locally
 
 Serve this directory with any static web server. For example, with Python installed:
