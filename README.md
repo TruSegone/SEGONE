@@ -6,6 +6,8 @@ Responsive single-page corporate site for SEGONE, built with semantic HTML, CSS,
 
 Browse the [SEGONE repository on GitHub](https://github.com/TruSegone/SEGONE) or open the [website entry point](https://github.com/TruSegone/SEGONE/blob/master/index.html) to review the page source in your browser. This is a source review link; a publicly hosted website preview has not been deployed.
 
+The public website review link will be [https://trusegone.github.io/SEGONE/](https://trusegone.github.io/SEGONE/) after the first GitHub Pages deployment succeeds.
+
 ## Run locally
 
 Serve this directory with any static web server. For example, with Python installed:
